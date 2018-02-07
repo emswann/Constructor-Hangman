@@ -14,8 +14,8 @@ NPM install based on package.json.
 
 ## Built With
 
-* [node.js](https://nodejs.org/en/node.js) - Server side programming language.
-* [fs module] (https://nodejs.org/api/fs.html) - File system node package.
+* [node.js](https://nodejs.org/en/) - Server side programming language.
+* [fs module](https://nodejs.org/api/fs.html) - File system node package.
 * [inquirer](https://www.npmjs.com/package/inquirer) - Interactive command line user interfaces.
 
 ## Contributing
