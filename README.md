@@ -3,6 +3,20 @@ Command Line Hangman game using constructor functions - Homework #9
 
 This node.js application is a command line Hangman game. The computer chooses a random word from a text file and prompts the user to select letters in order to guess the word. As correct letters are guessed, the letters are filled in. The user has 10 incorrect guesses available. When the user guesses the word or incorrect guesses are no longer available, the game ends. The user can then choose to play another game. Also, the user can type quit at any time to end the game and leave the application altogether.
 
+## Some Images
+
+### Game Start
+
+<img src='HangmanStart.jpg' alt='Hangman Start Image' width='250'>
+
+### Game Correct (Some error checking, too!)
+
+<img src='HangmanCorrect.jpg' alt='Hangman Correct Image' width='250'>
+
+### Game Incorrect
+
+<img src='HangmanIncorrect.jpg' alt='Hangman Incorrect Image' width='250'>
+
 ## Getting Started
 
 You should be able to download the files via the github pages link below and run locally on your computer:
