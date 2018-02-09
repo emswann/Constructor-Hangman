@@ -7,15 +7,15 @@ This node.js application is a command line Hangman game. The computer chooses a 
 
 ### Game Start
 
-<img src='HangmanStart.jpg' alt='Hangman Start Image' width='250'>
+<img src='HangmanStart.jpg' alt='Hangman Start Image' width='300'>
 
 ### Game Correct (Some error checking, too!)
 
-<img src='HangmanCorrect.jpg' alt='Hangman Correct Image' width='250'>
+<img src='HangmanCorrect.jpg' alt='Hangman Correct Image' width='300'>
 
 ### Game Incorrect
 
-<img src='HangmanIncorrect.jpg' alt='Hangman Incorrect Image' width='250'>
+<img src='HangmanIncorrect.jpg' alt='Hangman Incorrect Image' width='300'>
 
 ## Getting Started
 
