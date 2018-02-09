@@ -4,7 +4,7 @@
  * @version 1.0 
 */
 
-const letter = require('./letter.js');
+const Letter = require('./letter');
 
 /** 
  * @constructor Word
@@ -24,8 +24,8 @@ function Word(strWord) {
   var createWord = strWord => {
     var word = [];
     for (let i = 0; i < strWord.length; i++) {
-      var objLetter = new letter.Letter(strWord[i]);
-      word.push(objLetter);
+      var letter = new Letter(strWord[i]);
+      word.push(letter);
     }
     return word;
   };
@@ -74,6 +74,4 @@ Word.prototype.checkWord = function(char) {
  * @module Word
  * @exports {Object} Word constructor.
 */
-module.exports = {
-  Word
-}
+module.exports = Word;

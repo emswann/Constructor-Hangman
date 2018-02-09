@@ -6,8 +6,8 @@
 
 const inquirer = require('inquirer');
 
-const file = require('./file.js');
-const word = require('./word.js');
+const file = require('./file');
+const Word = require('./word');
 
 /** 
  * @function getAnswer 
@@ -108,7 +108,7 @@ async function main() {
     const MAX_GUESSES = 10;
 
     var data = await file.readFile(INPUT_FILE);
-    var answer = new word.Word(getAnswer(data));
+    var answer = new Word(getAnswer(data));
     var remGuesses = MAX_GUESSES;
     var prevGuesses = [];
 

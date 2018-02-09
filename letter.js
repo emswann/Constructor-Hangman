@@ -54,6 +54,4 @@ Letter.prototype.checkChar = function(char) {
  * @module Letter
  * @exports {Object} Letter constructor.
 */
-module.exports = {
-  Letter
-}
+module.exports = Letter;
